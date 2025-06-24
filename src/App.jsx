@@ -1,7 +1,8 @@
 import { useState } from 'react'
 
 import './App.css'
-import { Hero, Navbar } from './components'
+import { Hero, Navbar, Projects } from './components'
+import About from './components/About/About'
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
     >
       <Navbar />
       <Hero />
+      <About />
+      <Projects />
+      <section className='min-h-screen'></section>
     </div>
     </>
   )
