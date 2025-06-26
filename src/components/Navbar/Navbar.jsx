@@ -31,7 +31,7 @@ function Navigation() {
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
+    <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40 ">
       <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
@@ -61,7 +61,7 @@ const Navbar = () => {
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
           style={{ maxHeight: "100vh" }}
-          transition={{ duration: 0.7}}
+          transition={{ duration: 0.7 }}
         >
           <nav className="pb-5">
             <Navigation />
