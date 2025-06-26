@@ -9,7 +9,7 @@ const Footer = () => {
                 <p>Privacy Policy</p>
             </div>
             <div
-                className="fixed right-3 top-1/2 -translate-y-1/2 flex flex-col items-center
+                className="fixed right-3 top-3/4 -translate-y-1/2 flex flex-col items-center
              space-y-4 p-3 rounded-full backdrop-blur-lg bg-black/10 
              ring-2 ring-violet-600 shadow-inner shadow-violet-600"
             >
