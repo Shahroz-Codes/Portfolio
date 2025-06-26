@@ -41,18 +41,33 @@ const About = () => {
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
+              style={{ rotate: "75deg", top: "5%", left: "85%" }}
+              image="assets/logos/redux.svg"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "25deg", top: "50%", left: "85%" }}
+              image="assets/logos/NPM.svg"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "75deg", top: "15%", left: "65%" }}
+              image="assets/logos/vitejs.svg"
+              containerRef={grid2Container}
+            />            
+            <Card
+              style={{ rotate: "-30deg", top: "63%", left: "45%" }}
               image="assets/logos/html5.svg"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
+              style={{ rotate: "0deg", bottom: "10%", left: "65%" }}
             image="assets/logos/tailwindcss.svg"
 
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "55%", left: "0%" }}
+              style={{ rotate: "-45deg", top: "55%", left: "5%" }}
               image="assets/logos/javascript.svg"
               containerRef={grid2Container}
             />
@@ -61,11 +76,7 @@ const About = () => {
               image="assets/logos/git.svg"
               containerRef={grid2Container}
             />
-            <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/threejs.svg"
-              containerRef={grid2Container}
-            />
+
             <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
               image="assets/logos/cplusplus.svg"

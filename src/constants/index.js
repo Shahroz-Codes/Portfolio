@@ -3,74 +3,93 @@ export const myProjects = [
     id: 1,
     title: "BlogVerse - A Blogging Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "BlogVerse is a responsive blogging app I built using React, Vite, Tailwind CSS, Redux Toolkit, and Appwrite. It allows users to create, edit, and browse rich-text blog posts with real-time authentication and smooth navigation—deployed via Vercel for production-ready performance.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Key Features:",
+      "- User authentication with Appwrite for secure access",
+      "- Rich-text editor for creating and formatting blog posts",
+      "- Responsive design with Tailwind CSS for optimal viewing on all devices",
+      "- Real-time edit and delete option for blog posts",
+
+      "Technologies Used:",
+
+
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
+    href: "blog-verse-appwrite-two.vercel.app",
+    logo: "/assets/logos/blogapplogo.svg",
+    image: "/assets/projects/blogapp.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
+        id: 2,
+        name: "Appwrite",
+        path: "/assets/logos/appwrite.svg",
+      },
+      {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
+      {
+        id: 5,
+        name: "Redux-Toolkit",
+        path: "/assets/logos/redux.svg",
+      },
+      {
+        id: 6,
+        name: "Vercel",
+        path: "/assets/logos/vercel.svg",
+      },
+
+    ],
+  },
+  {
+    id: 2,
+    title: "Paradise Nursery - E-Plant Store",
+    description:
+      "A responsive e-commerce frontend for browsing and purchasing plants online. Built with a sleek, modern interface, the app allows users to explore categories, manage their cart, and view dynamic product listings—all optimized for speed and clarity.",
+    subDescription: [
+      "Key Features:",
+      "- Real-time cart updates and item quantity management via Redux",
+      "- Smooth filtering and product browsing with interactive UI elements",
+      "- Responsive layout for mobile and desktop using Tailwind CSS",
+      "- Fast performance and live deployment via GitHub Pages",
+
+    ],
+    href: "https://shahroz-codes.github.io/e-plantShopping/",
+    logo: "",
+    image: "/assets/projects/plantapp.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "Redux-Toolkit",
+        path: "/assets/logos/redux.svg",
+      },
+
     ],
   },
 ];
@@ -91,12 +110,12 @@ export const mySocials = [
     href: "https://www.instagram.com/shahroz__01?igsh=MXNjdnY1Nml4NG9iag==",
     icon: "/assets/socials/instagram.svg",
   },
-    {
+  {
     name: "Github",
     href: "https://github.com/Shahroz-Codes",
     icon: "/assets/socials/github.png",
   },
-    {
+  {
     name: "LeetCode",
     href: "https://leetcode.com/u/Fr62iYfNJL/",
     icon: "/assets/socials/leetcode.png",

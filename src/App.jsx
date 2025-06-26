@@ -15,7 +15,6 @@ function App() {
         <Projects />
         <Contact />
         <Footer />
-        <section className='min-h-screen'></section>
       </div>
     </>
   )

@@ -1,7 +1,7 @@
 import { mySocials } from "../../constants";
 const Footer = () => {
     return (
-        <section className="flex flex-wrap items-center justify-between gap-5 pb-3 text-sm text-neutral-400 c-space">
+        <section className="flex flex-wrap items-center justify-between gap-5 pb-3 text-sm text-neutral-400 c-space mt-10">
             <div className="mb-4 bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
             <div className="flex gap-2">
                 <p>Terms & Conditions</p>
@@ -19,12 +19,12 @@ const Footer = () => {
                         key={index}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group transition-transform duration-200 ease-in-out"
+                        className="transform transition duration-150 rounded-full ease-in-out hover:scale-125 hover: shadow-md hover:shadow-violet-600"
                     >
                         <img
                             src={social.icon}
                             alt={social.name}
-                            className="w-5 h-5 transform transition duration-300 ease-in-out hover:scale-125 "
+                            className="w-5 h-5  "
                         />
                     </a>
                 ))}
