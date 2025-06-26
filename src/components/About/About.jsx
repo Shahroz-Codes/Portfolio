@@ -7,6 +7,7 @@ import Frameworks from "./AboutComponents/Frameworks";
 const About = () => {
   const grid2Container = useRef();
   return (
+    
     <section className="c-space section-spacing" id="about">
       <h2 className="text-heading">About Me</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
@@ -19,7 +20,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Shahroz Shafqat</p>
             <p className="subtext">
-              Over the last 2 years, I developed my frontend and backend dev
+              Over the last 2 years, I developed my frontend development
               skills to deliver dynamic software and web applications.
             </p>
           </div>
@@ -103,8 +104,8 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+              I specialize in a variety of languages, frameworks, and tools that
+              allow me to build robust and scalable applications.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
