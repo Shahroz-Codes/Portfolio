@@ -15,7 +15,7 @@ export const myProjects = [
 
 
     ],
-    href: "blog-verse-appwrite-two.vercel.app",
+    href: "https://blog-verse-appwrite-git-main-shahrozs-projects-68daf7be.vercel.app",
     logo: "/assets/logos/blogapplogo.svg",
     image: "/assets/projects/blogapp.png",
     tags: [
