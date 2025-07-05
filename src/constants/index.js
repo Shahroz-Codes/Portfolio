@@ -1,6 +1,64 @@
 export const myProjects = [
   {
     id: 1,
+    title: "TownSquare - Community Engagement Platform",
+    description:
+      "TownSquare is a modern community engagement platform I designed and built using React, Vite, Tailwind CSS, Redux Toolkit, and Appwrite. It empowers users to discover local events, submit feedback, and post volunteer opportunities—while admins can manage content through a secure dashboard. The app is fully responsive and deployed on Vercel for production-grade performance.",
+    subDescription: [
+      "Key Features:",
+      "- Community event listings with image uploads and location details",
+      "- Volunteer opportunity board where users can post needs",
+      "- Feedback submission system for gathering community insights",
+      "- Admin-only dashboard with analytics, event management, and feedback moderation",
+      "- User authentication via Appwrite with role-based access control (Admin/User)",
+      "- Dark mode design with intuitive navigation and seamless UX",
+
+      "Technologies Used:",
+      "- React + Vite for fast, modern frontend development",
+      "- Tailwind CSS for responsive, dark-themed UI",
+      "- Redux Toolkit for global state management",
+      "- Appwrite for authentication, database, storage, and backend operations",
+      "- Vercel for deployment and hosting"
+    ],
+    href: "https://blog-verse-appwrite-git-main-shahrozs-projects-68daf7be.vercel.app",
+    logo: "/assets/logos/blogapplogo.svg",
+    image: "/assets/projects/t1.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Appwrite",
+        path: "/assets/logos/appwrite.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "Redux-Toolkit",
+        path: "/assets/logos/redux.svg",
+      },
+      {
+        id: 6,
+        name: "Vercel",
+        path: "/assets/logos/vercel.svg",
+      },
+
+    ],
+  },
+  {
+    id: 2,
     title: "BlogVerse - A Blogging Platform",
     description:
       "BlogVerse is a responsive blogging app I built using React, Vite, Tailwind CSS, Redux Toolkit, and Appwrite. It allows users to create, edit, and browse rich-text blog posts with real-time authentication and smooth navigation—deployed via Vercel for production-ready performance.",
@@ -53,7 +111,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Paradise Nursery - E-Plant Store",
     description:
       "A responsive e-commerce frontend for browsing and purchasing plants online. Built with a sleek, modern interface, the app allows users to explore categories, manage their cart, and view dynamic product listings—all optimized for speed and clarity.",
