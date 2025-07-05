@@ -36,21 +36,16 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 5,
+        id: 4,
         name: "Redux-Toolkit",
         path: "/assets/logos/redux.svg",
       },
       {
-        id: 6,
+        id: 5,
         name: "Vercel",
         path: "/assets/logos/vercel.svg",
       },
