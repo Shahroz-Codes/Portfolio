@@ -20,7 +20,7 @@ export const myProjects = [
       "- Appwrite for authentication, database, storage, and backend operations",
       "- Vercel for deployment and hosting"
     ],
-    href: "https://blog-verse-appwrite-git-main-shahrozs-projects-68daf7be.vercel.app",
+    href: "https://town-square-sand.vercel.app",
     logo: "/assets/logos/blogapplogo.svg",
     image: "/assets/projects/t1.png",
     tags: [
