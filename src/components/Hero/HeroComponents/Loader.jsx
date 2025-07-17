@@ -2,7 +2,6 @@ import { Html, useProgress } from "@react-three/drei";
 
 const Loader = () => {
   const { progress } = useProgress();
-
   return (
     <Html center>
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900">
@@ -19,5 +18,4 @@ const Loader = () => {
     </Html>
   );
 };
-
 export default Loader;
