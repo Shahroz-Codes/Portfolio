@@ -1,18 +1,21 @@
+// ...existing code...
+import React, { Suspense, lazy } from 'react'
 import './App.css'
-import { Hero, Navbar, Projects, Contact, Footer } from './components'
+import { Navbar, Contact, Footer } from './components'
+const Hero = lazy(() => import('./components/Hero/Hero'))
+const Projects = lazy(() => import('./components/Projects/Projects'))
 import About from './components/About/About'
 
 function App() {
-
   return (
     <>
-      <div
-        className="container mx-auto max-w-7xl"
-      >
+      <div className="container mx-auto max-w-7xl">
         <Navbar />
-        <Hero />
-        <About />
-        <Projects />
+          <Hero />
+        <Suspense fallback={<div>Loading...</div>}>
+          <About />
+          <Projects />
+        </Suspense>
         <Contact />
         <Footer />
       </div>
@@ -21,3 +24,4 @@ function App() {
 }
 
 export default App
+// ...existing code...

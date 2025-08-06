@@ -9,6 +9,7 @@ const Card = ({ style, text, image, containerRef }) => {
       drag
       dragConstraints={containerRef}
       dragElastic={1}
+      loading="lazy"
     />
   ) : (
     <motion.div

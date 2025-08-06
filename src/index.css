@@ -51,7 +51,6 @@ body {
   background: #030412;
   font-family: "Funnel Display", sans-serif;
   color: white;
-  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
@@ -60,7 +59,7 @@ body {
 }
 
 .hover-animation {
-  @apply hover:-translate-y-1 duration-200;
+  @apply hover:-translate-y-1 duration-100;
 }
 
 .section-spacing {

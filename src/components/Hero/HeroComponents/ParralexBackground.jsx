@@ -2,7 +2,7 @@ import { motion, useScroll, useSpring, useTransform } from "motion/react";
 
 const ParallaxBackground = () => {
   const { scrollYProgress } = useScroll();
-  const x = useSpring(scrollYProgress, { damping: 50 });
+  const x = useSpring(scrollYProgress, { damping: 70 });
   const mountain3Y = useTransform(x, [0, 0.5], ["0%", "70%"]);
   const planetsX = useTransform(x, [0, 0.5], ["0%", "-20%"]);
   const mountain2Y = useTransform(x, [0, 0.5], ["0%", "30%"]);

@@ -60,7 +60,7 @@ const HeroText = () => {
           variants={variants}
           initial="hidden"
           animate="visible"
-          transition={{ delay: 1 }}
+          transition={{ delay: .6 }}
         >
           Hi, <div >I'm Shahroz </div>
         </motion.p>
@@ -70,7 +70,7 @@ const HeroText = () => {
             variants={variants}
             initial="hidden"
             animate="visible"
-            transition={{ delay: 1.2 }}
+            transition={{ delay: .8 }}
           >
             Building
           </motion.p>
@@ -78,7 +78,7 @@ const HeroText = () => {
             variants={variants}
             initial="hidden"
             animate="visible"
-            transition={{ delay: 1.5 }}
+            transition={{ delay: 1 }}
           >
             <FlipWords
               words={words}
@@ -86,11 +86,11 @@ const HeroText = () => {
             />
           </motion.div>
           <motion.p
-            className="text-4xl font-black text-neutral300"
+            className="text-4xl font-black text-neutral-300"
             variants={variants}
             initial="hidden"
             animate="visible"
-            transition={{ delay: 1.8 }}
+            transition={{ delay: 1.2 }}
           >
             Web Applications
           </motion.p>
